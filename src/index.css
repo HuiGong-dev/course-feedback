@@ -20,6 +20,7 @@
     --clr-light: #fff;
     --ckr-grey: #f7f8fd;
     --clr-dark: #363f66;
+    --clr-text-dark: #4f537c;
     --clr-accent: #5cfe50;
 
 }
@@ -27,7 +28,7 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
   background-color: var(--clr-grey);
-  color: var(--clr-light);
+  color: var(--clr-text-dark);
   line-height: 1.6;
 }
 
