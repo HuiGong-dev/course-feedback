@@ -18,14 +18,15 @@
     --fw-bold: 900;
 
     --clr-light: #fff;
-    --clr-dark: #202142;
+    --ckr-grey: #f7f8fd;
+    --clr-dark: #363f66;
     --clr-accent: #5cfe50;
 
 }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  background-color: var(--clr-dark);
+  background-color: var(--clr-grey);
   color: var(--clr-light);
   line-height: 1.6;
 }
@@ -47,6 +48,8 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
 }
 
 .card {
