@@ -18,7 +18,7 @@
     --fw-bold: 900;
 
     --clr-light: #fff;
-    --ckr-grey: #f7f8fd;
+    --clr-grey: #f6f8fd;
     --clr-dark: #363f66;
     --clr-text-dark: #4f537c;
     --clr-accent: #5cfe50;
@@ -54,8 +54,8 @@ header {
 }
 
 .card {
-  background-color: #fff;
-  color: #333;
+  background-color: var(--clr-light);
+  color: var(--clr-text-dark);
   border-radius: 15px;
   padding: 40px 50px;
   margin: 20px 0;
@@ -64,7 +64,7 @@ header {
 
 .card.reverse {
   background-color: rgba(0, 0, 0, 0.4);
-  color: #fff;
+  color: var(--clr-light);
 }
 
 .card h2 {
