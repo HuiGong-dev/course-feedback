@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap');
 
-*,
-*::before,
-*::after {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -19,7 +17,7 @@
 
     --clr-light: #fff;
     --clr-grey: #f6f8fd;
-    --clr-dark: #363f66;
+    --clr-dark: #383e65;
     --clr-text-dark: #4f537c;
     --clr-accent: #5cfe50;
 
@@ -108,7 +106,7 @@ header {
 
 .rating li:hover,
 .num-display {
-  background: #ff6a95;
+  background: var(--clr-dark);
   color: #fff;
 }
 

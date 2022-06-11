@@ -18,7 +18,7 @@ function Header({text, bgColor, textColor}) {
 
 Header.defaultProps = {
     text: 'Course Feedback',
-    bgColor: '#363f66',
+    bgColor: '#383e65',
     textColor: '#ffffff'
 }
 
