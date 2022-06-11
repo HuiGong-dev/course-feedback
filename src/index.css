@@ -138,6 +138,10 @@ input:focus {
 }
 
 .feedback-stats {
+  background-color: var(--clr-dark);
+  border-radius: 15px;
+  margin: 20px 0;
+  padding: 1rem 1rem;
   color: #fff;
   display: flex;
   justify-content: space-between;
